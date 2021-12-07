@@ -150,5 +150,6 @@ private:
     tcp::endpoint& endpoint_;
     std::shared_ptr<std::array<char, MAXPACKSIZE>> buffer;
     int result;
+	vector<char> buffer;
 };
 
